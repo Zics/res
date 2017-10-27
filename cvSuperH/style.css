@@ -1,0 +1,155 @@
+@media screen and (max-width: 625px)
+{
+    /* propriétés pour mobile */
+}
+@media screen and (max-width: 976px)
+{
+    /* propriétés pour tablette */
+}
+
+body, html {
+    padding: 0;
+    margin: auto;
+
+}
+
+body {
+    background-image: url(images/aladdinBackground2.png); /* img fond */
+    background-attachment: fixed; /* img fixe */
+    background-repeat: no-repeat; /* img non repeter */
+    background-size: cover;/* img s'adapte à l'écran */
+
+}
+
+.bandeau {
+    width: 900px; /* taille du bandeau */
+    padding: 0;
+    margin: auto;
+    background-color: rgba(43, 5, 118, 0.27); /* couleur du bandeau red green blue alpha = opacité */
+}
+
+.ban {
+    width: 900px; /* taille */
+    height: 200px; /* hauteur */
+    padding: 0;
+    margin: auto;
+
+}
+
+.contact {
+    width: 300px;
+    height: 150px;
+    padding: 0;
+    margin: auto;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.nom {
+    width: 300px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    text-align: center;
+}
+
+.nom img {
+    max-height:92px;
+    margin-top:25px;
+    margin-left: 20px;
+}
+
+.tapis {
+    width: 300px;
+    height: 150px;
+    padding: 0;
+    margin: auto;
+    float: left;
+    text-align: center;
+
+}
+
+.tapis img {
+    max-width: 130px;
+    transform: rotate(-90deg);
+}
+
+.corps {
+    max-width: 900px;
+    margin: auto;
+    padding: 0;
+
+}
+
+.personnage {
+    float: left;
+    width: 350px;
+
+}
+
+.personnage img {
+    width: 350px;
+    padding-top: 40px;
+}
+
+.texte {
+    width: 465px;
+    margin: auto;
+    padding: 0;
+    float: left;
+    text-align: justify;
+}
+
+.singe {
+    width: 100%;
+    position: fixed;
+    text-align: right;
+    bottom:0;
+}
+
+.singe img {
+    width: 20%;
+}
+
+p {
+    color: mintcream;
+    font-family: 'EB Garamond', serif; /* police de caractère */
+    font-size:20px; /* taille de la police */
+    line-height: 20pt; /* interligne */
+}
+
+ul {
+    color: mintcream;
+    font-family: 'EB Garamond', serif;
+    font-size:20px;
+    line-height: 20pt;
+}
+
+h2 {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size:30px;
+    color: goldenrod;
+    text-shadow: 2px 2px 8px #FF0000; /* ombre texte */
+}
+
+br {
+    display: block;
+    margin: -10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: mintcream;
+}
+
+a:hover { /* lien change de couleur */
+    text-decoration: none;
+    color: #DAA520;
+}
+.rien{
+    clear: both; /* permet au div bandeau d'avoir une hauteur autre que 0
+    (prend les élèment en compte float) (autre méthode : overfloat */
+}
